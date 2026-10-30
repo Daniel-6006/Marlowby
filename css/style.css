@@ -20,7 +20,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: #444;
-  background: #fff;
+  background: #fddfc4;
   overflow-x: hidden;
 }
 h1,
@@ -120,10 +120,10 @@ img {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   font-weight: 900;
-  color: var(--dark);
+  color:#c6f4ed;
 }
 .bname span {
-  color: var(--primary);
+  color:#ffea7b;
 }
 .bsub {
   font-size: 0.62rem;
@@ -1703,10 +1703,10 @@ footer {
   font-family: "Playfair Display", serif;
   font-size: 1.9rem;
   font-weight: 900;
-  color: #fff;
+  color: #c6f4ed;
 }
 .fnm span {
-  color: var(--primary);
+  color: #ffea7b;
 }
 .fdesc {
   color: #777;
@@ -1825,7 +1825,7 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 11px;
-  background: linear-gradient(135deg, var(--primary), #c01e12);
+  background: linear-gradient(135deg, var(--primary), #ffea7b);
   color: #fff;
   border: none;
   cursor: pointer;
