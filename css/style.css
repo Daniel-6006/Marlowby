@@ -117,7 +117,7 @@ img {
   box-shadow: 0 4px 15px rgba(232, 40, 26, 0.35);
 }
 .bname {
-  font-family: "Playfair Display", serif;
+  font-family: "Comic Sans MS";
   font-size: 1.5rem;
   font-weight: 900;
   color: var(--dark);
@@ -249,7 +249,7 @@ section {
 
 /* ===================== HERO ===================== */
 #hero {
-  background: var(--cream);
+  background:#F2E6CF;
   min-height: 92vh;
   display: flex;
   align-items: center;
@@ -328,13 +328,15 @@ section {
   color: var(--dark);
 }
 .htitle {
+  font-family: "Comic Sans MS";
   font-size: clamp(2.7rem, 6vw, 4.8rem);
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 18px;
+  color: #343B35;
 }
 .htitle .hl {
-  color: var(--primary);
+  color:#557C78;
   position: relative;
   display: inline-block;
 }
@@ -424,7 +426,7 @@ section {
   width: 480px;
   height: 480px;
   border-radius: 50%;
-  background: radial-gradient(circle at 40% 40%, #fff8f0, #ffe5c8);
+  background:linear-gradient(to bottom, #F26734, #FDA44A, #F4957A, #FAA27D, #FFF285);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -507,7 +509,7 @@ section {
 
 /* ===================== MARQUEE ===================== */
 .mqsec {
-  background: var(--primary);
+  background: #343B35;
   padding: 13px 0;
   overflow: hidden;
 }
