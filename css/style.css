@@ -117,10 +117,10 @@ img {
   box-shadow: 0 4px 15px rgba(232, 40, 26, 0.35);
 }
 .bname {
-  font-family: "Playfair Display", serif;
+  font-family: "Comic Sans MS";
   font-size: 1.5rem;
   font-weight: 900;
-  color:#c6f4ed;
+  color:#7b3b17;
 }
 .bname span {
   color:#ffea7b;
@@ -249,7 +249,7 @@ section {
 
 /* ===================== HERO ===================== */
 #hero {
-  background: var(--cream);
+  background: #F2E6CF;
   min-height: 92vh;
   display: flex;
   align-items: center;
