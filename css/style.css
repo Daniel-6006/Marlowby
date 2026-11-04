@@ -89,7 +89,7 @@ img {
 
 /* ===================== NAVBAR ===================== */
 #nav {
-  background: #fff;
+  background: #fffbf4;
   position: sticky;
   top: 0;
   z-index: 990;
@@ -120,7 +120,7 @@ img {
   font-family: "Comic Sans MS";
   font-size: 1.5rem;
   font-weight: 900;
-  color: var(--dark);
+  color: #7b3b17;
 }
 .bname span {
   color: var(--primary);
@@ -197,7 +197,7 @@ section {
 .slbl {
   font-family: "Dancing Script", cursive;
   font-size: 1.35rem;
-  color: var(--primary);
+  color: #736684;
   display: block;
   margin-bottom: 4px;
 }
@@ -226,14 +226,14 @@ section {
   line-height: 1.8;
 }
 .btn-red {
-  background: linear-gradient(135deg, var(--primary), #c01e12);
+  background: linear-gradient(135deg, #db5340, #963326);
   color: #fff;
   border: none;
   border-radius: 50px;
   padding: 14px 32px;
   font-weight: 600;
   font-size: 0.93rem;
-  box-shadow: 0 8px 24px rgba(232, 40, 26, 0.35);
+  box-shadow: 0 8px 24px rgba(99, 11, 5, 0.35);
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
@@ -243,7 +243,7 @@ section {
 }
 .btn-red:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 34px rgba(232, 40, 26, 0.45);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
   color: #fff;
 }
 
@@ -333,10 +333,10 @@ section {
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 18px;
-  color: #343B35;
+  color: #b68066;
 }
 .htitle .hl {
-  color:#557C78;
+  color:#864040;
   position: relative;
   display: inline-block;
 }
@@ -426,7 +426,7 @@ section {
   width: 480px;
   height: 480px;
   border-radius: 50%;
-  background:linear-gradient(to bottom, #F26734, #FDA44A, #F4957A, #FAA27D, #FFF285);
+  background:linear-gradient(to bottom, #FFF285, #FDA44A, #F4957A, #FDA44A, #F26734);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -442,7 +442,7 @@ section {
 }
 .fcard {
   position: absolute;
-  background: #fff;
+  background: #ffff;
   border-radius: 11px;
   padding: 10px 15px;
   box-shadow: var(--shadow);
