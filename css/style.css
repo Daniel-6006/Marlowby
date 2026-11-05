@@ -146,7 +146,7 @@ img {
   transform: translateX(-50%);
   width: 0;
   height: 3px;
-  background: var(--primary);
+  background: #c6f4ed;
   border-radius: 3px 3px 0 0;
   transition: 0.3s;
 }
@@ -155,7 +155,7 @@ img {
   width: 55%;
 }
 .navbar-nav .nav-link:hover {
-  color: var(--primary) !important;
+  color: #c48eb8 !important;
 }
 /* FIX 1 â€” Search btn in navbar */
 #navSearchBtn {
@@ -197,7 +197,7 @@ section {
 .slbl {
   font-family: "Dancing Script", cursive;
   font-size: 1.35rem;
-  color: #736684;
+  color: #6d4b38;
   display: block;
   margin-bottom: 4px;
 }
@@ -206,9 +206,10 @@ section {
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 12px;
+  color: #b68066
 }
 .stitle span {
-  color: var(--primary);
+  color: #D2A45E;
 }
 .sline {
   width: 58px;
@@ -542,10 +543,10 @@ section {
 
 /* ===================== CATEGORY ===================== */
 #category {
-  background: var(--cream);
+  background: #F2E6CF;
 }
 .catcard {
-  background: #fff;
+  background: #fff7e8;
   border-radius: 15px;
   padding: 22px 14px;
   text-align: center;
