@@ -117,7 +117,7 @@ img {
   box-shadow: 0 4px 15px rgba(232, 40, 26, 0.35);
 }
 .bname {
-  font-family: "Comic Sans MS";
+  font-family: "Garamond";
   font-size: 1.5rem;
   font-weight: 900;
   color: #7b3b17;
@@ -202,6 +202,7 @@ section {
   margin-bottom: 4px;
 }
 .stitle {
+  font-family: "Garamond";
   font-size: clamp(1.9rem, 4vw, 2.7rem);
   font-weight: 900;
   line-height: 1.2;
@@ -306,7 +307,7 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: #fff;
+  background: #fcf4e5;
   border-radius: 30px;
   padding: 6px 16px 6px 6px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -329,7 +330,7 @@ section {
   color: var(--dark);
 }
 .htitle {
-  font-family: "Comic Sans MS";
+  font-family: "Garamond";
   font-size: clamp(2.7rem, 6vw, 4.8rem);
   font-weight: 900;
   line-height: 1.1;
@@ -544,6 +545,7 @@ section {
 /* ===================== CATEGORY ===================== */
 #category {
   background: #F2E6CF;
+  border: 2px solid;
 }
 .catcard {
   background: #fff7e8;
@@ -586,7 +588,7 @@ section {
 
 /* ===================== ABOUT ===================== */
 #about {
-  background: #fff;
+  background: #F2E6CF;
 }
 .astack {
   position: relative;
@@ -881,6 +883,7 @@ section {
   margin-bottom: 14px;
 }
 .sptitle {
+ font-family: "Garamond";
   font-size: clamp(2.3rem, 5vw, 3.8rem);
   font-weight: 900;
   color: #fff;
