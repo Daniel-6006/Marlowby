@@ -216,7 +216,7 @@ section {
   width: 58px;
   height: 4px;
   border-radius: 4px;
-  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  background: linear-gradient(90deg, #557C78, #a2bd99);
   margin: 0 auto 12px;
 }
 .sline.lft {
@@ -1157,7 +1157,7 @@ section {
 
 /* ===================== CHEFS ===================== */
 #chefs {
-  background: #fff;
+   background:linear-gradient(to bottom, );
 }
 .chcard {
   border-radius: 18px;
@@ -1219,6 +1219,8 @@ section {
 .chbody {
   padding: 18px;
   text-align: center;
+  background-color: #F2E6CF;
+  color: #b68066;
 }
 .chnm {
   font-size: 1.05rem;
@@ -1240,7 +1242,7 @@ section {
 
 /* ===================== HOURS ===================== */
 #hours {
-  background: linear-gradient(135deg, var(--green), #1a4a35);
+  background: linear-gradient(135deg, #b68066, #D2A45E);
   position: relative;
   overflow: hidden;
 }
