@@ -207,7 +207,7 @@ section {
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 12px;
-  color: #b68066
+  color: #b68066;
 }
 .stitle span {
   color: #D2A45E;
@@ -1242,7 +1242,9 @@ section {
 
 /* ===================== HOURS ===================== */
 #hours {
-  background: linear-gradient(135deg, #b68066, #D2A45E);
+     background: radial-gradient(circle at top center, #A3753C 0%, #6E3B29 50%, #4A2118 100%);
+  background-attachment: fixed;
+  color: #F6F0DD;
   position: relative;
   overflow: hidden;
 }
@@ -1260,7 +1262,7 @@ section {
   background-size: 28px 28px;
 }
 .hrscard {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(216, 205, 157, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 18px;
   padding: 28px;
@@ -1316,7 +1318,7 @@ section {
 }
 .btnw {
   background: #fff;
-  color: var(--primary);
+  color: #9f2b00;
   border-radius: 50px;
   padding: 11px 28px;
   font-weight: 700;
