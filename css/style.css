@@ -249,12 +249,17 @@ section {
 
 /* ===================== HERO ===================== */
 #hero {
-  background: var(--cream);
+  /* background: var(--cream); */
   min-height: 92vh;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
+  /* === Hero Background Image === */
+  background-image:url("https://images.unsplash.com/photo-1772157939749-4b652d108892?q=80&w=893&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
 }
 .hbgtxt {
   position: absolute;
