@@ -1,5 +1,5 @@
 :root {
-  --primary: #e8281a;
+  --primary: #a2bd99;
   --secondary: #f6a623;
   --dark: #1a1a1a;
   --green: #2d6a4f;
@@ -356,10 +356,14 @@ section {
 }
 .hdesc {
   font-size: 1rem;
-  color: #666;
+  color: var(--light);
   line-height: 1.8;
   max-width: 470px;
   margin-bottom: 30px;
+  /* Text Background */
+  border-radius:10px;
+  background-color:darkgray;
+  padding:5px;
 }
 /* FIX 2 â€” Video play button */
 .btn-play {
