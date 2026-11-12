@@ -1236,26 +1236,31 @@ section {
 
 /* ===================== HOURS ===================== */
 #hours {
-  background: radial-gradient(circle at top, #ffbb00 0%, #e095d3 40%, #195881 75%, #6b6fb3 100%);
-  color: #F6F0DD;
+  background: radial-gradient(circle at bottom, #FDEE4B 0%, #F29A2E 40%, #E75A0A 75%, #A53D08 100%, #4D2412 100%);
   position: relative;
   overflow: hidden;
+  padding-bottom: 100px;
 }
-.hrsbg {
+.road{
   position: absolute;
-  inset: 0;
-  opacity: 0.05;
-  background: repeating-linear-gradient(
-    45deg,
-    #fff 0,
-    #fff 1px,
-    transparent 0,
-    transparent 50%
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #343B35; 
+  background-image: repeating-linear-gradient(
+    to right,
+    #fff 0px,
+    #fff 30px,
+    transparent 30px,
+    transparent 55px
   );
-  background-size: 28px 28px;
+  background-size: 100% 4px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hrscard {
-  background-color :rgba(196, 142, 184, 0.5);
+  background-color :rgba(255, 248, 150, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 18px;
   padding: 28px;
@@ -1633,10 +1638,10 @@ section {
 
 /* ===================== CONTACT â€” FIX 6 ===================== */
 #contact-section {
-  background: #fff;
+  background: #F2E6CF;
 }
 .ctdark {
-  background: var(--dark);
+  background: #52724ef1;
   border-radius: 18px;
   padding: 38px;
   height: 100%;
@@ -1660,7 +1665,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 9px;
-  background: rgba(232, 40, 26, 0.18);
+  background: rgba(236, 230, 176, 1);
   display: flex;
   align-items: center;
   justify-content: center;
