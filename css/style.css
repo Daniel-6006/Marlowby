@@ -1,11 +1,11 @@
 :root {
-  --primary: #e8281a;
-  --secondary: #f6a623;
-  --dark: #1a1a1a;
-  --green: #2d6a4f;
-  --cream: #fff8f0;
-  --cream2: #fef0dc;
-  --light: #f9f5f0;
+  --primary: #557c78;
+  --secondary: #a2bd99;
+  --dark: #343b35;
+  --green: #2db194;
+  --cream: #f2e6cf;
+  --cream2: #b68066;
+  --light: #fde8ce;
   --shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.18);
 }
@@ -543,19 +543,19 @@ section {
   background: var(--cream);
 }
 .catcard {
-  background: #fff;
+  background: #c0d8d5c4;
   border-radius: 15px;
   padding: 22px 14px;
   text-align: center;
   cursor: pointer;
   transition: 0.4s;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 18px #557c785d;
   border: 2px solid transparent;
 }
 .catcard:hover,
 .catcard.active {
   transform: translateY(-7px);
-  box-shadow: 0 14px 38px rgba(232, 40, 26, 0.14);
+  box-shadow: 0 14px 38px #557c78b2;
   border-color: var(--primary);
 }
 .catimg {
@@ -583,7 +583,7 @@ section {
 
 /* ===================== ABOUT ===================== */
 #about {
-  background: #fff;
+  background: #d7f0e54b;
 }
 .astack {
   position: relative;
@@ -689,13 +689,13 @@ section {
 }
 /* FIX 3 â€” Filter buttons */
 .filtbtn {
-  border: 2px solid #e5e5e5;
-  background: #fff;
+  border: 2px solid var(--primary);
+  background: #f2fdfb;
   border-radius: 50px;
   padding: 8px 20px;
   font-size: 0.84rem;
   font-weight: 600;
-  color: #666;
+  color: var(--primary);
   cursor: pointer;
   transition: 0.3s;
   margin: 3px;
@@ -705,8 +705,8 @@ section {
 .filtbtn:hover {
   background: var(--primary);
   border-color: var(--primary);
-  color: #fff;
-  box-shadow: 0 5px 18px rgba(232, 40, 26, 0.24);
+  color: #f2fdfb;
+  box-shadow: 0 5px 18px #557c789f;
 }
 .mwrap {
   transition: 0.35s;
@@ -996,7 +996,7 @@ section {
 
 /* ===================== GALLERY ===================== */
 #gallery {
-  background: var(--light);
+  background: #f5ead9;
 }
 .ggrid {
   display: grid;
@@ -1059,7 +1059,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
-  background: linear-gradient(to bottom, var(--primary), var(--secondary));
+  background: linear-gradient(to bottom, #557C78, #f2e6cf6b);
   top: 0;
   bottom: 0;
 }
@@ -1096,8 +1096,8 @@ section {
   height: 18px;
   border-radius: 50%;
   background: var(--primary);
-  border: 4px solid #fff;
-  box-shadow: 0 0 0 3px rgba(232, 40, 26, 0.3);
+  border: 4px solid #b5d3c3;
+  box-shadow: 0 0 0 3px #58afa68e;
   flex-shrink: 0;
 }
 .tlyear {
