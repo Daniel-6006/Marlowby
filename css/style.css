@@ -1215,7 +1215,7 @@ section {
   background: var(--primary);
 }
 .chbody {
-  background: radial-gradient(circle at top center, #e7e07d 0%, #d1a656 50%, #c07723 100%);
+  background: radial-gradient(circle at top center, #dba80dd0 0%, #9b2164ad 50%, #2e0d74c0 100%);
   padding: 18px;
   text-align: center;
 }
@@ -1223,10 +1223,11 @@ section {
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 2px;
+  color: #130031;
 }
 .chrole {
   font-size: 0.78rem;
-  color: #ce4226;
+  color: #ffd000;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -1239,31 +1240,13 @@ section {
 
 /* ===================== HOURS ===================== */
 #hours {
-  background: radial-gradient(circle at bottom, #A16072 0%, #D18A9A 35%, #E98E75 60%, #ECD585 85%, #50BCDA 100%);
+  background-color: #6da7e2;
   position: relative;
   overflow: hidden;
   padding-bottom: 100px;
 }
-.road{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 30px;
-  background-color: #343B35; 
-  background-image: repeating-linear-gradient(
-    to right,
-    #fff 0px,
-    #fff 30px,
-    transparent 30px,
-    transparent 55px
-  );
-  background-size: 100% 4px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .hrscard {
-  background-color :rgba(255, 248, 150, 0.5);
+  background-color:rgba(63, 88, 201, 0.705);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 18px;
   padding: 28px;
