@@ -201,6 +201,9 @@ section {
   display: block;
   margin-bottom: 4px;
 }
+#hours .slbl{
+color:#000;
+}
 .stitle {
   
   font-size: clamp(1.9rem, 4vw, 2.7rem);
@@ -227,7 +230,7 @@ section {
   line-height: 1.8;
 }
 #ctcBtn .btn-red{
-  background: linear-gradient(135deg, #c06835, #77320a) !important;
+  background: linear-gradient(135deg, var(--primary), #c01e12);
 }
 .btn-red {
   background-color: #fa4301;
@@ -237,7 +240,7 @@ section {
   padding: 14px 32px;
   font-weight: 600;
   font-size: 0.93rem;
-  box-shadow: 0 8px 24px rgba(179, 57, 57, 0.35);
+  box-shadow: 0 8px 24px rgba(255, 57, 57, 0.466);
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
@@ -247,7 +250,7 @@ section {
 }
 .btn-red:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 34px rgba(219, 115, 29, 0.45);
+  box-shadow: 0 14px 34px rgba(219, 29, 29, 0.45);
   color: #fff;
 }
 
@@ -1240,13 +1243,21 @@ section {
 
 /* ===================== HOURS ===================== */
 #hours {
-  background-color: #6da7e2;
+background: #bb9557a8;
+background-image: repeating-linear-gradient(
+  45deg,
+  #fff12f67 0,
+  #ffffff73 1px,
+  transparent 1px,
+  transparent 15px 
+);
+
   position: relative;
   overflow: hidden;
   padding-bottom: 100px;
 }
 .hrscard {
-  background-color:rgba(63, 88, 201, 0.705);
+  background-color:#681414af;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 18px;
   padding: 28px;
@@ -1284,8 +1295,8 @@ section {
   background: #ff6b6b;
 }
 .hrscta {
- background: linear-gradient(135deg, #9fb7e4 0%, #e9e69f 100%);
-  border-radius: 18px;
+background: radial-gradient(circle at bottom, #f9e4b7c9 0%, #eba030c4 35%, #d94f3ac5 48%, #2b2d42c5 100%);
+  border-radius: 12px;
   padding: 28px;
   text-align: center;
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.432);
@@ -1699,10 +1710,14 @@ footer {
   padding: 68px 0 0;
 }
 .fnm {
-  font-family: "Playfair Display", serif;
-  font-size: 1.9rem;
-  font-weight: 900;
-  color: #fff;
+  display: inline-block;
+  width: 220px;  
+  height: 85px;  
+  background-image: url('../../../../../Pictures/Screenshots/Screenshot 2026-11-18 101319.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 .fnm span {
   color: var(--primary);
