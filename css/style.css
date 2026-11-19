@@ -249,14 +249,26 @@ section {
 
 /* ===================== HERO ===================== */
 #hero {
-  background: var(--cream);
+  /* background: var(--cream);
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden; */
+
+/* == Background Image == */
+  background-image: url("../img/hbackground-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 92vh;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
+
 }
-.hbgtxt {
+/* .hbgtxt {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -267,7 +279,7 @@ section {
   color: rgba(0, 0, 0, 0.04);
   pointer-events: none;
   white-space: nowrap;
-}
+} */
 .hs {
   position: absolute;
   border-radius: 50%;
@@ -355,6 +367,9 @@ section {
   line-height: 1.8;
   max-width: 470px;
   margin-bottom: 30px;
+  background-color:darkgray;
+  border-radius: 10px;
+  text-align:center;
 }
 /* FIX 2 â€” Video play button */
 .btn-play {
