@@ -1218,7 +1218,7 @@ color:#000;
   background: var(--primary);
 }
 .chbody {
-  background: radial-gradient(circle at top center, #dba80dd0 0%, #9b2164ad 50%, #2e0d74c0 100%);
+  background: radial-gradient(circle at top center, #aed8cfd0 0%, #81bcffad 50%, #29489bc0 100%);
   padding: 18px;
   text-align: center;
 }
@@ -1226,11 +1226,11 @@ color:#000;
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 2px;
-  color: #130031;
+  color: #000000;
 }
 .chrole {
   font-size: 0.78rem;
-  color: #ffd000;
+  color: #272a31;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
